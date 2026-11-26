@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Inventario - Aqua Tribe Survival</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Aqua Tribe Survival</h1>
+        <p>Inventario del superviviente</p>
+    </header>
+
+    <nav>
+        <a href="/"><button>Inicio</button></a>
+        <button>Inventario</button>
+        <button>Mapa</button>
+        <button>Tribu</button>
+    </nav>
+
+    <main>
+        <h2>Tus objetos</h2>
+        <ul>
+            <li>Tanque de oxígeno - 80%</li>
+            <li>Arpón básico</li>
+            <li>Alga comestible x5</li>
+            <li>Piedra de afilar</li>
+        </ul>
+        <p>Estos son los recursos que has recolectado bajo el agua.</p>
+    </main>
+</body>
+</html>

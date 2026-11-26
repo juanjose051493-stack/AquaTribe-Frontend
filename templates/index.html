@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Aqua Tribe Survival</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<div class="bubble" style="left: 10%; width: 20px; height: 20px; animation-duration: 8s;"></div>
+<div class="bubble" style="left: 25%; width: 15px; height: 15px; animation-duration: 10s; animation-delay: 2s;"></div>
+<div class="bubble" style="left: 40%; width: 25px; height: 25px; animation-duration: 12s;"></div>
+<div class="bubble" style="left: 55%; width: 12px; height: 12px; animation-duration: 9s; animation-delay: 1s;"></div>
+<div class="bubble" style="left: 70%; width: 18px; height: 18px; animation-duration: 11s; animation-delay: 3s;"></div>
+<div class="bubble" style="left: 85%; width: 22px; height: 22px; animation-duration: 7s;"></div>
+<body>
+    <header>
+        <h1>Aqua Tribe Survival</h1>
+        <p>Supervivencia submarina</p>
+    </header>
+
+    <nav>
+    <button>Jugar</button>
+    <a href="/inventario"><button>Inventario</button></a>
+    <a href="/mapa"><button>Mapa</button></a>
+    <a href="/tribu"><button>Tribu</button></a>
+</nav>
+
+    <main>
+        <h2>Bienvenido, superviviente</h2>
+        <p>Elige una opción para continuar tu aventura bajo el agua.</p>
+    </main>
+</body>
+</html>
